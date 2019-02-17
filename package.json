@@ -1,0 +1,25 @@
+{
+  "name": "advancedwdbcourse",
+  "version": "1.0.0",
+  "description": "Projects for the Advanced Web Developer course on Udemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ib2loud/advancedWDBCourse.git"
+  },
+  "keywords": [
+    "Udemy",
+    "advanced",
+    "web",
+    "developer"
+  ],
+  "author": "BradR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ib2loud/advancedWDBCourse/issues"
+  },
+  "homepage": "https://github.com/ib2loud/advancedWDBCourse#readme"
+}
