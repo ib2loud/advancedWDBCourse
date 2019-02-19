@@ -7,7 +7,7 @@ html {
 }
 
 hr {
-    margin: 15px;
+    margin: 50px;
 }
 
 .btn {
@@ -38,10 +38,51 @@ hr {
     top: 6px;
 }
 
-p {
+#first-animation p {
+    height: 200px;
+    width: 200px;
+    background-color: #838342;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.animated:hover {
+    transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transform: translateX(300px);
+}
+
+.box:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+#transform-example p {
+    margin-left: 50px;
     width: 50px;
     height: 50px;
     background-color: #1abc9c;
+    border: 2px solid black;
+    transition-duratrion: .75s;
+    -webkit-transition-duration: .75s;
+    -moz-transition-duration: .75s;
+    -ms-transition-duration: .75s;
+    -o-transition-duration: .75s;
+}
+
+#rotations-example p {
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+    border: 2px solid black;
 }
 
 p.move-right {
@@ -54,6 +95,18 @@ p.move-down {
     transform: translateY(20px);
 }
 
-p:hover {
+#transform-example p:hover {
     transform: translate(20px, 20px);
+}
+
+.transformed {
+    background-color: #3498db;
+    transform-origin: left;
+    transform: scale(.5, 2);
+}
+
+.rotated {
+    background-color: #9b59b6;
+    transform-origin: right bottom;
+    transform: rotate(45deg);
 }
