@@ -24,12 +24,12 @@ body {
     height: 100vh;
     position: absolute;
     z-index: 1;
-    animation-name: skyColor;
+    /* animation-name: skyColor;
     animation-duration: 8s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
-
+    animation-iteration-count: infinite; */
+    animation: skyColor 8s linear 0s infinite;
 }
 
 #sun {
@@ -40,11 +40,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    animation-name: risingSun;
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+    animation: risingSun 8s linear 0s infinite;
 
 }
 
@@ -76,7 +72,7 @@ body {
 
 @keyframes risingSun {
     0% {
-        transform: translate(0, 0);
+        transform: translate(0px, 0px);
         background-color: darkorange
     }
 
@@ -92,11 +88,11 @@ body {
 
     75% {
         transform: translate(390%, -230%);
-        background-color: darkgoldenrod;
+        background-color: orange;
     }
 
     100% {
-        transform: translate(510%, 0);
+        transform: translate(510%, 0px);
         background-color: darkorange;
     }
 }
