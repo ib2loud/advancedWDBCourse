@@ -18,9 +18,8 @@ body {
 
 }
 
-
 #sky {
-    background-color: skyblue;
+    background-color: black;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -54,15 +53,19 @@ body {
         background-color: black;
     }
 
-    25% {
+    10% {
         background-color: violet
     }
 
-    50% {
+    30% {
         background-color: skyblue;
     }
 
-    75% {
+    70% {
+        background-color: skyblue;
+    }
+
+    90% {
         background-color: darkmagenta;
     }
 
