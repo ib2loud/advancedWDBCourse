@@ -1,0 +1,13 @@
+body,
+html {
+    text-align: center;
+    font-family: 'Padauk',
+        sans-serif;
+}
+
+#firstExample {
+    margin: 0 auto;
+    width: 85%;
+    border: 4px solid black;
+    display: flex;
+}
