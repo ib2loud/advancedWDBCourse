@@ -1,0 +1,47 @@
+body {
+    font-family: 'Exo',
+        sans-serif;
+    background-color: #f1f1f1;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        justify-content: space-around !important;
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        background-color: #c1c1d1;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px !important;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.link {
+    padding: 10px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid darkred;
+    transition: color 0.5s ease-out;
+}
+
+a:hover {
+    color: darkred;
+}
