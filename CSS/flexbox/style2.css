@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme';
+    font-size: 22px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#mainStuff {
+    box-shadow: inset 0 0 100px #a1a1a1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #bbbbbb;
+    border-radius: 15px;
+}
+
+.box:nth-of-type(even) {
+    background-color: #000afd;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+.box:nth-of-type(even):hover {
+    box-shadow: -3px -3px 3px black;
+}
